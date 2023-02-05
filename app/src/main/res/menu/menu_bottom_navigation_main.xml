@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fibonacciNumbersFragment"
+        android:title="@string/fib_title" />
+
+    <item
+        android:id="@+id/primeNumbersFragment"
+        android:title="@string/prime_title" />
+</menu>

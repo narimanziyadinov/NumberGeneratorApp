@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_app"
+    app:startDestination="@id/fibonacciNumbersFragment">
+
+    <fragment
+        android:id="@+id/fibonacciNumbersFragment"
+        android:name="com.number_generator.presentation.ui.fragments.FibonacciNumbersFragment"
+        android:label="fibonacci_fragment"
+        tools:layout="@layout/fibonacci_fragment" />
+    <fragment
+        android:id="@+id/primeNumbersFragment"
+        android:name="com.number_generator.presentation.ui.fragments.PrimeNumbersFragment"
+        android:label="prime_numbers_fragment"
+        tools:layout="@layout/prime_numbers_fragment" />
+</navigation>
